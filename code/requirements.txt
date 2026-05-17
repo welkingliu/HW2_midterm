@@ -1,0 +1,19 @@
+# ─── Requirements ─────────────────────────────────────────────────────────────
+# Install all dependencies (GPU recommended):
+#   pip install -r requirements.txt
+
+# ── Core deep learning ────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── Task 1 ────────────────────────────────────────────────────────────────────
+swanlab>=0.3.0          # experiment tracking (optional but recommended)
+
+# ── Task 2 ────────────────────────────────────────────────────────────────────
+ultralytics>=8.2.0      # YOLOv8 + ByteTrack
+opencv-python-headless>=4.9.0
+PyYAML>=6.0
+
+# ── Task 3 ────────────────────────────────────────────────────────────────────
+numpy>=1.24.0
+Pillow>=10.0.0
