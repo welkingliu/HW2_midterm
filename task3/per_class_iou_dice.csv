@@ -1,0 +1,9 @@
+class_id,class_name,iou
+0,sky,0.8492
+1,tree,0.6336
+2,road,0.7860
+3,grass,0.4882
+4,water,0.4976
+5,building,0.6927
+6,mountain,0.1434
+7,foreground,0.5610

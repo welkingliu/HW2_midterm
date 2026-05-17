@@ -1,0 +1,39 @@
+{
+  "video_path": "/home/ccda/desktop/lch/midterm/data/test_video.mp4",
+  "output_video": "/home/ccda/desktop/lch/midterm/outputs/task2/tracked_output.mp4",
+  "line_pt1": [
+    0,
+    1536
+  ],
+  "line_pt2": [
+    2160,
+    1536
+  ],
+  "total_cross_count": 22,
+  "crossed_ids": [
+    2,
+    6,
+    41,
+    54,
+    64,
+    103,
+    104,
+    134,
+    160,
+    175,
+    192,
+    203,
+    220,
+    256,
+    288,
+    295,
+    316,
+    324,
+    326,
+    365,
+    391,
+    404
+  ],
+  "occlusion_events_saved": 4,
+  "event_cooldown_frames": 30
+}

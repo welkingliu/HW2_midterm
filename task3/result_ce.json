@@ -1,0 +1,27 @@
+{
+  "config": {
+    "data_dir": "/home/ccda/desktop/lch/midterm/data/StanfordBackground",
+    "output_dir": "/home/ccda/desktop/lch/midterm/outputs/task3",
+    "epochs": 40,
+    "batch_size": 8,
+    "lr": 0.001,
+    "base_ch": 32,
+    "combined_alpha": 0.5,
+    "class_weighted": false,
+    "attention_unet": false,
+    "use_tracking": true,
+    "loss_mode": "ce"
+  },
+  "best_val_mIoU": 0.6091581329790756,
+  "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task3/unet_ce_best.pth",
+  "per_class_iou": {
+    "sky": 0.8652844563057714,
+    "tree": 0.6428480190934128,
+    "road": 0.8404144930420321,
+    "grass": 0.49345255512533487,
+    "water": 0.5909189853888045,
+    "building": 0.7239935422672896,
+    "mountain": 0.1105243837009008,
+    "foreground": 0.6058286289090593
+  }
+}
