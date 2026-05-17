@@ -1,0 +1,5 @@
+exp_name,arch,cbam_layers,cbam_reduction,cbam_kernel,backbone_lr,cbam_lr,head_lr,mixup_alpha,cutmix_alpha,best_val_acc,test_loss,test_acc
+cbam_l4_light,resnet18,layer4,32,3,0.0001,0.001,0.001,0.0,0.0,0.8980,1.3316,0.8803
+cbam_l34_mid,resnet18,"layer3,layer4",16,7,0.0001,0.0005,0.001,0.0,0.0,0.9039,1.3240,0.8816
+cbam_l34_mixup,resnet18,"layer3,layer4",16,7,0.0001,0.0005,0.001,0.1,0.0,0.8951,1.3749,0.8754
+cbam_all_baseline_lr,resnet18,"layer1,layer2,layer3,layer4",16,7,0.0001,0.0001,0.001,0.2,1.0,0.8804,1.4568,0.8475

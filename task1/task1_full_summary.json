@@ -1,0 +1,82 @@
+[
+  {
+    "exp_name": "convnext_tiny_pretrained",
+    "arch": "convnext_tiny",
+    "pretrained": true,
+    "attention": "none",
+    "best_val_acc": 0.9676470588235294,
+    "test_loss": 1.1418049953045506,
+    "test_acc": 0.9430801756383151,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/convnext_tiny_pretrained_best.pth"
+  },
+  {
+    "exp_name": "efficientnet_b0_pretrained",
+    "arch": "efficientnet_b0",
+    "pretrained": true,
+    "attention": "none",
+    "best_val_acc": 0.9225490196078432,
+    "test_loss": 1.3755098783905904,
+    "test_acc": 0.8858350951374208,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/efficientnet_b0_pretrained_best.pth"
+  },
+  {
+    "exp_name": "resnet18_pretrained",
+    "arch": "resnet18",
+    "pretrained": true,
+    "attention": "none",
+    "best_val_acc": 0.8794117647058823,
+    "test_loss": 1.4142451429874998,
+    "test_acc": 0.8648560741583997,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_best.pth"
+  },
+  {
+    "exp_name": "resnet18_pretrained_cbam",
+    "arch": "resnet18",
+    "pretrained": true,
+    "attention": "cbam",
+    "best_val_acc": 0.8715686274509804,
+    "test_loss": 1.4560104932973474,
+    "test_acc": 0.854122621564482,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_cbam_best.pth"
+  },
+  {
+    "exp_name": "resnet18_pretrained_se",
+    "arch": "resnet18",
+    "pretrained": true,
+    "attention": "se",
+    "best_val_acc": 0.8911764705882353,
+    "test_loss": 1.399338394650639,
+    "test_acc": 0.8694096601073346,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_se_best.pth"
+  },
+  {
+    "exp_name": "resnet18_random",
+    "arch": "resnet18",
+    "pretrained": false,
+    "attention": "none",
+    "best_val_acc": 0.27647058823529413,
+    "test_loss": 3.420652601927892,
+    "test_acc": 0.22491462026345746,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_random_best.pth"
+  },
+  {
+    "exp_name": "resnet34_pretrained",
+    "arch": "resnet34",
+    "pretrained": true,
+    "attention": "none",
+    "best_val_acc": 0.9009803921568628,
+    "test_loss": 1.3083633759929447,
+    "test_acc": 0.8902260530167507,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/resnet34_pretrained_best.pth"
+  },
+  {
+    "exp_name": "swin_t_pretrained",
+    "arch": "swin_t",
+    "pretrained": true,
+    "attention": "none",
+    "best_val_acc": 0.9558823529411765,
+    "test_loss": 1.138086162266411,
+    "test_acc": 0.9326719791836071,
+    "checkpoint": "/home/ccda/desktop/lch/midterm/outputs/task1/swin_t_pretrained_best.pth"
+  }
+]

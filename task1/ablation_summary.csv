@@ -1,0 +1,6 @@
+exp_name,arch,pretrained,attention,best_val_acc,test_acc
+resnet18_pretrained,resnet18,True,none,0.8794,0.8649
+resnet18_random,resnet18,False,none,0.2765,0.2249
+resnet18_pretrained_se,resnet18,True,se,0.8912,0.8694
+resnet18_pretrained_cbam,resnet18,True,cbam,0.8716,0.8541
+resnet34_pretrained,resnet34,True,none,0.9010,0.8902

@@ -1,0 +1,9 @@
+exp_name,arch,pretrained,attention,best_val_acc,test_loss,test_acc,checkpoint
+convnext_tiny_pretrained,convnext_tiny,True,none,0.9676,1.1418,0.9431,/home/ccda/desktop/lch/midterm/outputs/task1/convnext_tiny_pretrained_best.pth
+efficientnet_b0_pretrained,efficientnet_b0,True,none,0.9225,1.3755,0.8858,/home/ccda/desktop/lch/midterm/outputs/task1/efficientnet_b0_pretrained_best.pth
+resnet18_pretrained,resnet18,True,none,0.8794,1.4142,0.8649,/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_best.pth
+resnet18_pretrained_cbam,resnet18,True,cbam,0.8716,1.4560,0.8541,/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_cbam_best.pth
+resnet18_pretrained_se,resnet18,True,se,0.8912,1.3993,0.8694,/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_pretrained_se_best.pth
+resnet18_random,resnet18,False,none,0.2765,3.4207,0.2249,/home/ccda/desktop/lch/midterm/outputs/task1/resnet18_random_best.pth
+resnet34_pretrained,resnet34,True,none,0.9010,1.3084,0.8902,/home/ccda/desktop/lch/midterm/outputs/task1/resnet34_pretrained_best.pth
+swin_t_pretrained,swin_t,True,none,0.9559,1.1381,0.9327,/home/ccda/desktop/lch/midterm/outputs/task1/swin_t_pretrained_best.pth
